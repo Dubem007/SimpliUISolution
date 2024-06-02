@@ -1,0 +1,26 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "api-gateway",
+      "TransformByOcelotConfig": false,
+      "Config": [
+        {
+          "Name": "Api-Gateway",
+          "Version": "1.0",
+          "Url": "http://host.docker.internal:5065/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "auth-service",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "SimplifiedUI Auth APIs",
+          "Version": "1.0",
+          "Url": "http://authservice:80/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}

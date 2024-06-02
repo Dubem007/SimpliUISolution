@@ -1,0 +1,6 @@
+{
+  "GlobalConfiguration": {
+    "RequestIdKey": "X-Correlation-Id",
+    "BaseUrl": "http://localhost:5055"
+  }
+}
